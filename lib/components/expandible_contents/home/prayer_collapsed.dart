@@ -28,56 +28,59 @@ class _PrayerCollapsedState extends State<PrayerCollapsed> {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              GestureDetector(
-                child: Icon(
-                  widget.notificationStatus,
-                  color: const Color(0xFFA34865),
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                GestureDetector(
+                  child: Icon(
+                    widget.notificationStatus,
+                    color: const Color(0xFFA34865),
+                  ),
+                  onTap: widget.onTap,
                 ),
-                onTap: widget.onTap,
-              ),
-              Text(
-                widget.prayerName,
-                style: const TextStyle(
-                  color: Color(0xFFECD7D8),
-                  fontSize: 20,
+                Text(
+                  widget.prayerName,
+                  style: const TextStyle(
+                    color: Color(0xFFECD7D8),
+                    fontSize: 20,
+                  ),
                 ),
-              ),
-              Text(
-                widget.prayerTime,
-                style: const TextStyle(
-                  color: Color(0xFFECD7D8),
-                  fontSize: 35,
-                  fontWeight: FontWeight.bold,
+                Text(
+                  widget.prayerTime,
+                  style: const TextStyle(
+                    color: Color(0xFFECD7D8),
+                    fontSize: 35,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-              const Text(
-                "next prayer",
-                style: TextStyle(
-                  color: Color(0xFFECD7D8),
+                const Text(
+                  "next prayer",
+                  style: TextStyle(
+                    color: Color(0xFFECD7D8),
+                  ),
                 ),
-              ),
-              Text(
-                widget.nextPrayer,
-                style: const TextStyle(
-                  color: Color(0xFFECD7D8),
-                  fontWeight: FontWeight.bold,
+                Text(
+                  widget.nextPrayer,
+                  style: const TextStyle(
+                    color: Color(0xFFECD7D8),
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
-        ),
-        const SizedBox(width: 97.3),
-        Image.asset(
-          'assets/images/prayer_masjid.png',
-        ),
-      ],
+          const SizedBox(width: 97.3),
+          Image.asset(
+            'assets/images/prayer_masjid.png',
+          ),
+        ],
+      ),
     );
   }
 }
