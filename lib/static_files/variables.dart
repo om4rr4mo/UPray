@@ -1,8 +1,10 @@
 bool prayerCollapsed = true;
 bool calendarCollapsed = true;
+bool notificationCollapsed = true;
 bool madhabCollapsed = true;
 bool calculationMethodCollapsed = true;
 bool languageCollapsed = true;
+
 MadhabEnum currentMadhab = MadhabEnum.shafi;
 CalculationMethodEnum currentCalculationMethod =
     CalculationMethodEnum.worldwide;
