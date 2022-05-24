@@ -78,7 +78,10 @@ class _AdhkarTextState extends State<AdhkarText> {
                     physics: BouncingScrollPhysics(),
                     child: Column(
                       children: [
-                        Text(widget.arabicText),
+                        Text(
+                          widget.arabicText,
+                          textAlign: TextAlign.right,
+                        ),
                         SizedBox(
                           height: 30,
                         ),
