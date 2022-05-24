@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "549979493097",
+    "project_id": "upray-f90d5",
+    "storage_bucket": "upray-f90d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549979493097:android:c3a2d1e8ff220b95ae5678",
+        "android_client_info": {
+          "package_name": "com.ugroup.upray"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549979493097-ctt4rdmn7rbrbt5rfuq1rei16b2pbq47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJpW1W9tm9N-d46hhV05f1_j85oOqRx_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549979493097-ctt4rdmn7rbrbt5rfuq1rei16b2pbq47.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "549979493097-kra0csmfjjv4lggdq03d43tdig72cohe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ugroup.upray"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
