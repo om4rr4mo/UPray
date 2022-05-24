@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:upray/static_files/variables.dart';
+import 'package:upray/utility/variables.dart';
 
 class LanguageCollapsed extends StatefulWidget {
   const LanguageCollapsed({Key? key}) : super(key: key);

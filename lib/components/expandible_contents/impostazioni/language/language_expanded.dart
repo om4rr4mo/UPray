@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:upray/static_files/variables.dart';
+import 'package:upray/utility/variables.dart';
 
 class LanguageExpanded extends StatefulWidget {
   const LanguageExpanded({Key? key}) : super(key: key);

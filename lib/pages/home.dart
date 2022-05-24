@@ -3,7 +3,7 @@ import 'package:upray/components/expandible_contents/home/calendar/calendar_coll
 import 'package:upray/components/expandible_contents/home/calendar/calendar_expanded.dart';
 import 'package:upray/components/expandible_contents/home/prayer/prayer_collapsed.dart';
 import 'package:upray/components/expandible_contents/home/prayer/prayer_expanded.dart';
-import 'package:upray/static_files/variables.dart';
+import 'package:upray/utility/variables.dart';
 
 import '../components/expandible_container.dart';
 import '../components/menu/menu.dart';

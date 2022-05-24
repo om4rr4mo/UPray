@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:upray/components/expandible_container.dart';
-import 'package:upray/static_files/variables.dart';
+import 'package:upray/utility/variables.dart';
 
 class PrayerMenu extends StatefulWidget {
   final String prayerName;
   final String prayerTime;
 
-  const PrayerMenu(
-      {Key? key, required this.prayerName, required this.prayerTime})
-      : super(key: key);
+  const PrayerMenu({Key? key, required this.prayerName, required this.prayerTime}) : super(key: key);
 
   @override
   _PrayerMenuState createState() => _PrayerMenuState();
@@ -64,12 +62,7 @@ class PrayerBox extends StatefulWidget {
   final String prayerTime;
   final IconData icon;
 
-  const PrayerBox(
-      {Key? key,
-      required this.prayerName,
-      required this.prayerTime,
-      required this.icon})
-      : super(key: key);
+  const PrayerBox({Key? key, required this.prayerName, required this.prayerTime, required this.icon}) : super(key: key);
 
   @override
   State<PrayerBox> createState() => _PrayerBoxState();

@@ -42,17 +42,15 @@ class _ExpandibleContainerState extends State<ExpandibleContainer> {
     return GestureDetector(
       onTap: widget.onTap,
       child: AnimatedContainer(
-        duration: const Duration(milliseconds: 500),
-        height:
-            widget.collapsed ? widget.collapsedHeight : widget.expandedHeight,
+        duration: Duration(milliseconds: 500),
+        height: widget.collapsed ? widget.collapsedHeight : widget.expandedHeight,
         width: widget.width,
         decoration: BoxDecoration(
           color: widget.bgColor,
           borderRadius: BorderRadius.circular(widget.borderRadius),
         ),
         curve: Curves.fastOutSlowIn,
-        child:
-            widget.collapsed ? widget.collapsedContent : widget.expandedContent,
+        child: widget.collapsed ? widget.collapsedContent : widget.expandedContent,
       ),
     );
   }

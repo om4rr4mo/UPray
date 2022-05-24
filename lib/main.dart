@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:upray/pages/adhkar.dart';
 import 'package:upray/pages/home.dart';
+import 'package:upray/pages/impostazioni.dart';
+import 'package:upray/utility/variables.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +14,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyBasePage(
         title: 'Flutter Demo Home Page',
       ),
+      routes: {
+        '/impostazioni': (BuildContext context) => Impostazioni(),
+        '/adhkar': (BuildContext context) => Adhkar(),
+      },
     );
   }
 }
@@ -31,9 +38,9 @@ class MyBasePage extends StatefulWidget {
 class _MyBasePageState extends State<MyBasePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
-        minimum: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+        minimum: EdgeInsets.only(left: minimumSafeArea, top: minimumSafeArea, right: minimumSafeArea),
         child: Home(),
       ),
     );
