@@ -127,7 +127,7 @@ class _ImpostazioniState extends State<Impostazioni> {
                         firstChild: Container(
                           width: 500,
                           alignment: Alignment.center,
-                          child: const Text("Metodo di calcolo"),
+                          child: Text("Metodo di calcolo"),
                         ),
                         secondChild: Container(
                           width: 500,

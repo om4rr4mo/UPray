@@ -32,19 +32,20 @@ class MyBasePage extends StatefulWidget {
 }
 
 class _MyBasePageState extends State<MyBasePage> {
-
-  initFirebase() async{
+  initFirebase() async {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
   }
+
   @override
-  void initState() async{
+  void initState() {
     // TODO: implement initState
     super.initState();
 
     initFirebase();
   }
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
