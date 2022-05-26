@@ -19,6 +19,8 @@ class _CalendarExpandedState extends State<CalendarExpanded> {
           fontWeight: FontWeight.bold,
         ),
       ),
+      monthCellStyle: const DateRangePickerMonthCellStyle(
+          todayTextStyle: TextStyle(color: Color(0xFFDB8787))),
       monthViewSettings: const DateRangePickerMonthViewSettings(
         firstDayOfWeek: 1,
         viewHeaderStyle: DateRangePickerViewHeaderStyle(

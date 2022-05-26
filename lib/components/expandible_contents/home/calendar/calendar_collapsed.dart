@@ -19,6 +19,8 @@ class _CalendarCollapsedState extends State<CalendarCollapsed> {
           fontWeight: FontWeight.bold,
         ),
       ),
+      monthCellStyle: const DateRangePickerMonthCellStyle(
+          todayTextStyle: TextStyle(color: Color(0xFFDB8787))),
       monthViewSettings: const DateRangePickerMonthViewSettings(
         firstDayOfWeek: 1,
         numberOfWeeksInView: 1,
