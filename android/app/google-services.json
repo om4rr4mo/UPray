@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "549979493097",
+    "firebase_url": "https://upray-f90d5-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "upray-f90d5",
     "storage_bucket": "upray-f90d5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:549979493097:android:c3a2d1e8ff220b95ae5678",
+        "mobilesdk_app_id": "1:549979493097:android:526d923dffb4469eae5678",
         "android_client_info": {
           "package_name": "com.ugroup.upray"
         }
@@ -31,10 +32,10 @@
               "client_type": 3
             },
             {
-              "client_id": "549979493097-kra0csmfjjv4lggdq03d43tdig72cohe.apps.googleusercontent.com",
+              "client_id": "549979493097-68hnng7c4ngtmm95eg3pr2k60vo83hep.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.ugroup.upray"
+                "bundle_id": "com.ugroup.uprayh"
               }
             }
           ]

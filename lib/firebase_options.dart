@@ -48,27 +48,30 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyBiZCkdhVWp-Sr_th0-vM7k1xRpdPamZKU',
-    appId: '1:549979493097:web:b4bd5c232075cdd3ae5678',
+    appId: '1:549979493097:web:c4e294fb62572e04ae5678',
     messagingSenderId: '549979493097',
     projectId: 'upray-f90d5',
     authDomain: 'upray-f90d5.firebaseapp.com',
+    databaseURL: 'https://upray-f90d5-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'upray-f90d5.appspot.com',
-    measurementId: 'G-P8FEL8WYZY',
+    measurementId: 'G-DNZLQB8PTR',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCJpW1W9tm9N-d46hhV05f1_j85oOqRx_o',
-    appId: '1:549979493097:android:c3a2d1e8ff220b95ae5678',
+    appId: '1:549979493097:android:526d923dffb4469eae5678',
     messagingSenderId: '549979493097',
     projectId: 'upray-f90d5',
+    databaseURL: 'https://upray-f90d5-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'upray-f90d5.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyD9LFhv95VAgb3bLLm6Bu7txXx2B44z32o',
-    appId: '1:549979493097:ios:4b89d9ad35e39e55ae5678',
+    appId: '1:549979493097:ios:d5a354efddaa0a12ae5678',
     messagingSenderId: '549979493097',
     projectId: 'upray-f90d5',
+    databaseURL: 'https://upray-f90d5-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'upray-f90d5.appspot.com',
     iosClientId: '549979493097-kra0csmfjjv4lggdq03d43tdig72cohe.apps.googleusercontent.com',
     iosBundleId: 'com.ugroup.upray',

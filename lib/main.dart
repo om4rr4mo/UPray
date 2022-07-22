@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:upray/pages/home.dart';
+import 'package:upray/pages/impostazioni.dart';
 
 import 'firebase_options.dart';
 
@@ -51,7 +52,7 @@ class _MyBasePageState extends State<MyBasePage> {
     return const Scaffold(
       body: SafeArea(
         minimum: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
-        child: Home(),
+        child: Impostazioni(),
       ),
     );
   }
